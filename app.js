@@ -7,7 +7,7 @@ const config = {
 }
 
 tesseract
-  .recognize("Resized_20220518_102015.jpeg", config)
+  .recognize("recipe.jpeg", config)
   .then((text) => {
     console.log("Result:", text)
   })
